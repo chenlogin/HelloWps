@@ -1,21 +1,21 @@
 # wps加载项 项目
 
 - 安装、更新 wps
-```
-npm install -g wpsjs
-npm update -g wpsjs
-```
-
+    - npm install -g wpsjs
+    - npm update -g wpsjs
+    
 - 创建项目、更新wps工具包
-```
-wpsjs create HelloWps 
-npm update --save-dev wps-jsapi
-```
+    - wpsjs create HelloWps 
+    - npm update --save-dev wps-jsapi
 
 - wpsjs工具包自动启动wps并加载HelloWps这个加载项
-```
-wpsjs debug
-```
+    - wpsjs debug
+    - public下会生成.debugTemp临时调试目录
+
+- wps部署
+    - wpsjs build
+    - 临时调试目录.debugTemp会被删除
+    - 编译成功。将目录wps-addon-build下的文件署到服务器
 
 # HelloWps
 - 文档
