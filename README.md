@@ -3,7 +3,7 @@
 - 安装、更新 wps
     - npm install -g wpsjs
     - npm update -g wpsjs
-    
+
 - 创建项目、更新wps工具包
     - wpsjs create HelloWps 
     - npm update --save-dev wps-jsapi
