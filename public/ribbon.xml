@@ -2,7 +2,7 @@
     <ribbon startFromScratch="false">
         <tabs>
             <tab id="wpsAddinTab" label="wps加载项示例">
-				<group id="btnDemoGroup" label="group1">
+				<group id="btnDemoGroup" label="示例分组">
                     <button id="btnShowMsg" label="弹出消息框" onAction="ribbon.OnAction" getEnabled="ribbon.OnGetEnabled"  getImage="ribbon.GetImage" visible="true" size="large"/>
                     <button id="btnIsEnbable" getLabel="ribbon.OnGetLabel" onAction="ribbon.OnAction" enabled="true"  getImage="ribbon.GetImage" visible="true" size="large"/>
                     <button id="btnShowDialog" label="弹对话框网页" onAction="ribbon.OnAction" getEnabled="ribbon.OnGetEnabled"  getImage="ribbon.GetImage" getVisible="ribbon.OnGetVisible" size="large"/>
